@@ -1,4 +1,5 @@
 import React from "react";
+import "./Stocklist.css"; 
 
 function StockList({ stock, deleteStock }) {
   return (
