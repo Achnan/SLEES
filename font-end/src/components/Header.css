@@ -1,7 +1,7 @@
-/* Header Styles */
 .header {
     padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     background-color: #4caf50;
     color: white;
   }
@@ -17,11 +17,12 @@
     background-color: white;
     color: #4caf50;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
+    border-radius: 4px;
+    margin: 5px;
   }
   
   .header button:hover {
     background-color: #f1f1f1;
+
   }
   
